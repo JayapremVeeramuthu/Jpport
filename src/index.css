@@ -118,11 +118,11 @@
   .grid-pattern {
     background-image: 
       radial-gradient(circle at center, hsl(var(--grid-color) / 0.08) 1px, transparent 1px),
-<<<<<<< HEAD
+
       linear-gradient(hsl(var(--grid-color) / 0.03) 1px, transparent 1px),
-=======
+
       linear-gradient(hsl(var(--grid-color) / 0.03) 1px, transparent 0px),
->>>>>>> 8bbb213 (Initial commit – portfolio builder pro)
+
       linear-gradient(90deg, hsl(var(--grid-color) / 0.03) 1px, transparent 1px);
     background-size: 24px 24px, 48px 48px, 48px 48px;
     mask-image: radial-gradient(ellipse at center, black 0%, transparent 80%);
@@ -362,7 +362,7 @@
   .icon-glow:hover::before {
     opacity: 1;
   }
-}
+
 
 @layer utilities {
   .animation-delay-200 {
@@ -406,10 +406,6 @@
       transparent 100%
     );
   }
-<<<<<<< HEAD
-}
-=======
-}
 
 .grid-pattern {
   background-image: 
@@ -430,6 +426,7 @@
 
   background-size: 24px 24px, 48px 48px, 48px 48px;
 
+
   /* 🔥 MASK FIX */
   mask-image: radial-gradient(
     ellipse at center,
@@ -442,4 +439,5 @@
     transparent 10%
   );
 }
->>>>>>> 8bbb213 (Initial commit – portfolio builder pro)
+}
+}

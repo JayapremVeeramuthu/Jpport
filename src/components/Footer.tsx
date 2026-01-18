@@ -2,17 +2,6 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Package, Heart } from "lucide-react";
 
 const socialLinks = [
-<<<<<<< HEAD
-  {
-    name: "npm",
-    icon: Package,
-    href: "https://www.npmjs.com/package/jayapremport",
-  },
-  {
-    name: "GitHub",
-    icon: Github,
-    href: "https://github.com/jayapremv",
-=======
   // {
   //   name: "npm",
   //   icon: Package,
@@ -22,16 +11,11 @@ const socialLinks = [
     name: "GitHub",
     icon: Github,
     href: "https://github.com/JayapremVeeramuthu",
->>>>>>> 8bbb213 (Initial commit – portfolio builder pro)
   },
   {
     name: "LinkedIn",
     icon: Linkedin,
-<<<<<<< HEAD
-    href: "https://linkedin.com/in/jayapremv",
-=======
     href: "https://www.linkedin.com/in/jayaprem-v-37a34a315/",
->>>>>>> 8bbb213 (Initial commit – portfolio builder pro)
   },
 ];
 
@@ -55,11 +39,7 @@ const Footer = () => {
           
           {/* Tagline */}
           <p className="text-muted-foreground mb-8 text-lg">
-<<<<<<< HEAD
-            Build fast. Ship faster.
-=======
             Built Easily Your Portfolio
->>>>>>> 8bbb213 (Initial commit – portfolio builder pro)
           </p>
           
           {/* Social links */}
@@ -80,13 +60,8 @@ const Footer = () => {
           
           {/* Creator credit */}
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
-<<<<<<< HEAD
-            <span>Created with</span>
-            <Heart className="w-4 h-4 text-red-500 fill-red-500" />
-=======
             <span>Created</span>
             
->>>>>>> 8bbb213 (Initial commit – portfolio builder pro)
             <span>by</span>
             <a
               href="https://linkedin.com/in/jayapremv"
@@ -100,11 +75,7 @@ const Footer = () => {
           
           {/* Copyright */}
           <div className="mt-4 text-xs text-muted-foreground">
-<<<<<<< HEAD
-            © {new Date().getFullYear()} jayapremport. Open source under MIT License.
-=======
             © {new Date().getFullYear()} jayapremport
->>>>>>> 8bbb213 (Initial commit – portfolio builder pro)
           </div>
         </motion.div>
       </div>
